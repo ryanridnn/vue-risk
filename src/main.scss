@@ -1,0 +1,25 @@
+:root {
+	--dark: #383840;
+	--lighter-dark: #454545;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background: var(--dark);
+	color: #eee;
+}
+
+input {
+	background: #2c2c2c;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
