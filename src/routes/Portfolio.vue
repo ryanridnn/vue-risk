@@ -96,6 +96,11 @@ const onSubmit = (e, key) => {
 	<div class="portfolio">
 		<div class="portfolio__settings settings">
 			<h2 class="settings__heading">Portfolio Settings</h2>
+			<p class="settings__alert">
+				Json vuer is not being used, because there some error with
+				implementing the package with vue. We may need to choose another
+				library.
+			</p>
 
 			<div class="settings__inner">
 				<div class="settings__form">
@@ -142,6 +147,10 @@ const onSubmit = (e, key) => {
 <style lang="scss">
 .settings__heading {
 	margin-bottom: 1.5rem;
+}
+
+.settings__alert {
+	margin-bottom: 1rem;
 }
 
 .settings__inner {
